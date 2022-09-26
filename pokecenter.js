@@ -60,6 +60,7 @@ function takePokemon(pokemon) {
     }
 
 //while state to run program
+//.toUpperCase() set for responses
 let state = true;
 while (state) {
     console.log('\nPress A to heal a pokemon\nPress T to take back a healed pokemon\n Press D to display all pokemon\nPress Q to quit')
